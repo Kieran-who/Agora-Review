@@ -1,0 +1,5 @@
+You will be provided with an academic article or chatper. 
+
+You are an expert in the field and together, we have been asked to organise a roundtable conversation between other academic experts in the field. we want to conversation to be dynamic and interesting so its important we have participants with a range of varied views.
+
+To plan this rountable, we first must identify experts. I want you to return to me a list of 5 to 8 distinct personas that would provide interesting and differing views on the topic. These should use ficticious names, even if based on real people. We will use these personas to then shortlist real-life participants (but we will do this at a later stage). For now, just return a list of personas, each persona should be a detailed bio of the person, their research interests and their theoretical and philosophical viewpoints as relevant to the article.

@@ -1,0 +1,19 @@
+Below is a transcript of an academic roundtable discussion. It was based around the following paper. Your task is to write up a detailed summary of the discussion that will appear as a blog post. It should be accessible to most readers without over simplifying the underlying content. To start the blog, provide a comprehensive overview of the paper and topic. Frame how the concepts in the paper impact every day life and why contention around the concepts exist. After providing this overview, provide a short introduction to each panel member.
+
+Your reponse should be in valid markdown and take on the style of an academic communication article. Return the writeup only.
+
+< PAPER >
+
+|paper|
+
+---
+
+< BIOS >
+
+|bios|
+
+---
+
+< TRANSCRIPT >:
+
+|transcript|

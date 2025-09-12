@@ -1,0 +1,235 @@
+HTTP/1.0 503 Service Unavailable Cache-Control: no-cache Connection: close
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Error: Weak Signal</title>
+    <style>
+      /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #000;
+        font-family: 'Helvetica Neue', sans-serif;
+        color: #fff;
+      }
+
+      /* Canvas for Weak Color Static (Upscaled) */
+      #displayCanvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        display: block;
+
+        /* So that the low-res effect isn't too blocky, you can use:
+         image-rendering: auto or image-rendering: pixelated, depending on your taste. */
+        image-rendering: auto;
+      }
+
+      /* Frosted-Glass Container for the Error Text */
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 85%;
+        max-width: 600px;
+        padding: 2rem;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
+        animation: fadeIn 1.5s ease forwards;
+        opacity: 0;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        letter-spacing: 0.1rem;
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        animation: glitch 3s infinite;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+      }
+
+      /* Intro Fade-In Animation */
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* Mild Glitch Effect on Heading */
+      @keyframes glitch {
+        0%,
+        100% {
+          clip-path: inset(0 0 0 0);
+        }
+        10%,
+        30%,
+        50%,
+        70%,
+        90% {
+          clip-path: inset(10% 0 30% 0);
+          transform: skew(2deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Upscaled canvas for displaying static -->
+    <canvas id="displayCanvas"></canvas>
+
+    <!-- Frosted-Glass Panel with Error Text -->
+    <div class="content">
+      <h1>Error: Weak Signal</h1>
+      <p>
+        Something went wrong.<br />
+        Go home and try again later.
+      </p>
+    </div>
+
+    <script>
+      /************************************************************************
+       * WEAKLY COLORED FLICKERING STATIC, WITH A SUBTLE MOUSE "TUNING" EFFECT
+       ************************************************************************/
+
+      const displayCanvas = document.getElementById('displayCanvas');
+      const displayCtx = displayCanvas.getContext('2d');
+
+      // Offscreen canvas to generate low-res static
+      const offscreenCanvas = document.createElement('canvas');
+      const offscreenCtx = offscreenCanvas.getContext('2d');
+
+      // Scale factor for lower resolution static
+      const scaleFactor = 0.3;
+
+      let displayWidth, displayHeight;
+      let offWidth, offHeight;
+
+      function resize() {
+        displayWidth = window.innerWidth;
+        displayHeight = window.innerHeight;
+
+        displayCanvas.width = displayWidth;
+        displayCanvas.height = displayHeight;
+
+        offWidth = Math.floor(displayWidth * scaleFactor);
+        offHeight = Math.floor(displayHeight * scaleFactor);
+
+        offscreenCanvas.width = offWidth;
+        offscreenCanvas.height = offHeight;
+      }
+      window.addEventListener('resize', resize);
+      resize();
+
+      // Track mouse position, start at center
+      let mouseX = displayWidth / 2;
+      let mouseY = displayHeight / 2;
+
+      document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+
+      // The radius around mouse in which we do a mild “signal boost”
+      const colorRadius = 60;
+
+      // The typical random range for color offset: +/- randomRange
+      // Keeping it small preserves a mostly grayscale look
+      const randomRange = 50;
+
+      // We'll do a slightly larger offset near the cursor
+      const mouseBoost = 300;
+
+      function drawStatic() {
+        // Create a new ImageData in the offscreen space
+        const imageData = offscreenCtx.createImageData(offWidth, offHeight);
+        const buffer = imageData.data;
+
+        // Convert mouse coords to offscreen space
+        const offMouseX = (mouseX / displayWidth) * offWidth;
+        const offMouseY = (mouseY / displayHeight) * offHeight;
+
+        for (let y = 0; y < offHeight; y++) {
+          for (let x = 0; x < offWidth; x++) {
+            const index = (y * offWidth + x) * 4;
+
+            // Create a base grayscale value
+            const baseVal = Math.random() * 255;
+
+            // Add subtle color offset for an overall weak color look
+            // We'll keep each channel near baseVal
+            let r = baseVal + (Math.random() * (2 * randomRange) - randomRange);
+            let g = baseVal + (Math.random() * (2 * randomRange) - randomRange);
+            let b = baseVal + (Math.random() * (2 * randomRange) - randomRange);
+
+            // Check distance to mouse for subtle "tuning" effect
+            const dx = x - offMouseX;
+            const dy = y - offMouseY;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+
+            if (dist < colorRadius) {
+              // Within the small circle around the cursor,
+              // we give a slightly bigger offset to simulate "tuning"
+              // but keep it subtle
+              const ratio = 1 - dist / colorRadius; // 1..0
+              const extra = mouseBoost * ratio; // up to ~25
+
+              r += Math.random() * extra - extra / 2;
+              g += Math.random() * extra - extra / 2;
+              b += Math.random() * extra - extra / 2;
+            }
+
+            // Clamp channels to [0..255]
+            r = Math.min(255, Math.max(0, r));
+            g = Math.min(255, Math.max(0, g));
+            b = Math.min(255, Math.max(0, b));
+
+            buffer[index + 0] = r;
+            buffer[index + 1] = g;
+            buffer[index + 2] = b;
+            buffer[index + 3] = 255; // fully opaque
+          }
+        }
+
+        offscreenCtx.putImageData(imageData, 0, 0);
+
+        // Upscale to the display canvas
+        displayCtx.clearRect(0, 0, displayWidth, displayHeight);
+        displayCtx.drawImage(
+          offscreenCanvas,
+          0,
+          0,
+          displayWidth,
+          displayHeight
+        );
+      }
+
+      function animate() {
+        drawStatic();
+        requestAnimationFrame(animate);
+      }
+      animate();
+    </script>
+  </body>
+</html>
