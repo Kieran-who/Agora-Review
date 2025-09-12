@@ -25,6 +25,7 @@ export default withMermaid({
     logo: '/hero.png',
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Info', link: '/info' },
     ],
 
     search: {
@@ -33,11 +34,11 @@ export default withMermaid({
     sidebar: generateSidebar(),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Kieran-who/Agora-Review' }
     ],
     footer: {
       message: 'AI-generated content. Always review for accuracy.',
-      copyright: 'Copyright © 2025-present'
+      copyright: 'Copyright © 2025-present Kieran'
     }
   },
   cleanUrls: true,
