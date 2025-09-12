@@ -54,6 +54,7 @@ class Config:
     max_workers: int
     weaviate: WeaviateConfig
     embeddings_config: AzureEmbeddingProviderConfig
+    mistral_api_key: str
 
 # ---- Helpers ---------------------------------------------------------------------
 
@@ -177,6 +178,7 @@ def load_config(env: Mapping[str, str] | None = None) -> Config:
     prometheus_port = _get_int(e.get("PROMETHEUS_PORT", "9443"), 9443)    
     logging_level = e.get("LOGGING_LEVEL", "INFO").upper()
     max_workers = _get_int(e.get("MAX_WORKERS", "8"), 8)
+    mistral_api_key = e.get("MISTRAL_API_KEY", "")
 
     # Weaviate config
     weaviate_config = WeaviateConfig(            
@@ -203,7 +205,8 @@ def load_config(env: Mapping[str, str] | None = None) -> Config:
         llm_config=llm_config,
         weaviate=weaviate_config,
         embeddings_config=_build_azure_embedding_config(e),
-        max_chat_tokens=max_chat_tokens if max_chat_tokens >= 20000 else 20000 # openAI reasoning models need 20000 in their max_response so we line that up here also
+        mistral_api_key=mistral_api_key,
+        max_chat_tokens=max_chat_tokens if max_chat_tokens >= 20000 else 20000
     )
 
 CONFIG = load_config()

@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Any, Optional, Literal, List
+from typing import Any, Optional, Literal, List, Union
 import json
 
 from pydantic import BaseModel, field_validator
 from openai.types.responses.function_tool_param import FunctionToolParam
+from openai.types.responses import ResponseInputMessageContentListParam
+# from openai.types.responses.response_input_image_param import ResponseInputImageParam
 
 __all__ = [
     "AzureLLMProviderConfig",
@@ -105,7 +107,7 @@ class ChatMessage(BaseModel):
     - tool_call_id/tool_output: populated for tool outputs (function_call_output)
     """
     role: Literal["system", "user", "assistant", "tool"]
-    content: Optional[str | ImgContent] = None
+    content: Optional[Union[str, ResponseInputMessageContentListParam]] = None
     name: Optional[str] = None
     tool_call_id: Optional[str] = None
     tool_calls: Optional[List[ToolCall]] = None

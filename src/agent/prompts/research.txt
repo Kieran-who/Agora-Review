@@ -1,5 +1,0 @@
-Your task is to use your research capabilities to answer the following request making sure to return your response in well formatted markdown.
-
-Your task:
-
-|query|
