@@ -9,16 +9,17 @@ hero:
     alt: The Agora Review
 
 features:
-  - title: 'Mitigation and the Disease Theory of Criminal Justice'
-    details: "Panelists discuss how mitigating factors in capital sentencing are pushing U.S. law toward treating violent crime as a 'disease,' raising legal, scientific, and philosophical challenges about free will and responsibility."
-    link: '/Mitigation%20and%20the%20Disease%20Theory%20of%20Criminal%20Justice/summary.md'
-  - title: 'Mitigation and the Disease Theory of Criminal Justice'
-    details: 'Panelists debated moral agency (Thorne), neuroscientific constraints on choice (Sharma), and mitigation practice and systemic arbitrariness (Vance). Discussion highlighted tensions between punishment and treatment, evidentiary disparities, and implications for death penalty and sentencing reform.'
-    link: '/Mitigation%20and%20the%20Disease%20Theory%20of%20Criminal%20Justice/summary.md'
+  - title: 'Retribution, Desert, and the Limits of Punishment'
+    details: "A multidisciplinary panel revisits Bedau’s critique of retributivism, debating proportionality, justification, and alternatives like restorative justice amid concerns about social inequality and practical sentencing."
+    link: '/Retribution%2C%20Desert%2C%20and%20the%20Limits%20of%20Punishment/summary.md'
   - title: '|feature-a|'
     details: '|feature-a-details|'
     link: '|feature-a-link|'
+  - title: '|feature-b|'
+    details: '|feature-b-details|'
+    link: '|feature-b-link|'
 ---
+
 
 ::: tip What is The Agora Review?
 

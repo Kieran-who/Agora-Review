@@ -830,3 +830,756 @@ Add two more clean‑up provisions:
 Closing thought
 
 Bedau asked for a theory that speaks to institutions. The through‑line of my proposals is simple: under non‑ideal conditions, retribution (R3) is not available, and proportionality (R2) is not neutral. If we keep any penal power, it must be subordinated to anti‑domination and public health; it must be minimized; and it must be conditioned on the state doing its distributive part. If we retain Prof. Chen’s S at all, embed it in that frame—with structural adjustments, distributive audits, and enforcement parity for aggregate harms—lest “doing justice” become the latest language in which we reproduce the very hierarchies punishment claims to condemn.
+
+---
+
+### Speaker: Host
+
+Prof. O’Rourke, Bedau flags the opacity of Card’s “Full Measure” and the harm-collapse in Sellin–Wolfgang. You’ve argued that any proportionality metric must capture lived, gendered autonomy losses and credible-risk environments. Given Prof. Chen’s S (with separate latent dimensions for culpability, realized harm, risked harm, and relational aggravation), what’s missing to make it adequate for sexual and domestic violence? Please be concrete: 
+
+- Measurement: How should S operationalize autonomy loss (e.g., duration of control, freedom-of-movement constraints, social/financial entanglement, repeat victimization) and credible-risk environments (weapons, stalking, threats to children)? What validated instruments or indicators would you import, and what α-weight adjustments or new items would you mandate to avoid underweighting long-term capability losses vs acute injury? How would you embed intersectional modifiers without reintroducing bias or victim blaming?
+
+- Worked comparisons: For the two scenarios on the table, when (if ever) should the acquaintance assault with grooming/repetition surpass the stranger rape with a weapon in S, and on what dimensions? Offer indicative ranges or item scores and explain the moral salience (e.g., patterned domination, erosion of agency over time). Do the same for IPV with coercive control but low acute injury versus a single severe assault—how should the metric rank them?
+
+- Carceral feminism risks: Where do you draw the line on custodial hard treatment for sexual violence in light of recidivism risks and survivor-defined justice? Specify screening criteria (validated risk tools; indicators of predation vs situational harm), and articulate a presumptive package of non-carceral controls (exclusion zones, EM/geofencing, communication bans, income redirection to survivor services, long-term treatment) that can substitute for imprisonment in higher S bands while preserving safety and censure.
+
+- Integration with restorative/reparative approaches: Engage Prof. Qureshi’s obligations model. In serious sexual violence, what forms of dialogic accountability are ethically permissible without re-traumatization, and when should surrogate/community panels replace direct encounters? Propose equivalency rules (hours, payments, supervision) that reflect gendered harms without commodifying trauma.
+
+- Structural critique: Respond to Dr. Baptiste’s warning that public-space risk and weapon-use aggravators are policed and measured differently across communities. What safeguards (data sources beyond police; DIF testing; aggregate-harm modules for coercive control) would you require so S doesn’t reproduce racialized patterns? Where should the guideline explicitly upgrade harms like wage-theft-for-sex, immigration-based threats, or digital sexual coercion that standard codes underweight?
+
+- Evidence and metrics: Point us to the best empirical bases on survivor outcomes for non-carceral interventions in sexual/IPV cases (protective orders with enforcement, advocacy + housing, specialized treatment), and specify what success metrics you would write into the guideline audit (e.g., autonomy restoration indices, fear reduction, time-to-violation, recidivism in coercive control).
+
+Bottom line: what concrete revisions to S, PIS, and Judge Villanueva’s grid would make our scheme genuinely answer to gendered harms while avoiding the overreach of carceral feminism that you warn against?
+
+---
+
+### Speaker: Prof. Tamsin O’Rourke
+
+Thank you, Chair. I’m broadly sympathetic to Wei‑Lun’s architecture—separate latent dimensions, public weights, uncertainty bands—but as Bedau anticipated in his critique of Card and Sellin–Wolfgang, the devil is in what we count as “harm.” Sexual and domestic violence are quintessential cases where acute injury is a poor proxy for the lived harm. If S is to do real work here, three upgrades are non‑negotiable: (a) autonomy/capability loss must be directly measured and given protected weight; (b) “credible‑risk environment” must be operationalised beyond weapons to include patterned coercive control; and (c) intersectional leverage must be coded as the offender’s aggravating conduct, not as victim traits.
+
+1) Measurement: make autonomy and coercive control visible and weighted
+
+- New latent dimension: Patterned Coercive Control (P)
+  - Why: Coercive control is not a side‑note to “harm”; it is a distinct mode of wrongdoing—eroding agency over time. Folded into H it gets swamped by medical injury and episodic frames.
+  - Items (polytomous/graded; scored with validated instruments):
+    - Duration/frequency of control (Composite Abuse Scale–Revised; Women’s Experience with Battering; Psychological Maltreatment of Women Inventory).
+    - Isolation, surveillance, financial control (CAS subscales; bank account control; device/credential takeovers).
+    - Stalking and monitoring (SAM: Stalking Assessment and Management guide; technology‑facilitated coercive control indicators).
+    - Threats to children/pets/immigration/employment (coded as offender’s use of structural leverage).
+  - Guardrails: add αP ∈ [0.15, 0.30]. This protects P from being diluted by H’s acute injury subcomponents.
+
+- Re‑specify H (realised harm) for gendered autonomy loss
+  - Within H, create protected subcomponents:
+    - Physical injury (Hphys).
+    - Autonomy/capability loss (Hauto): post‑offence restriction of movement, work/education withdrawal, social withdrawal, sleep disruption, long‑term hypervigilance (measured by validated scales: WEB; IES‑R/PCL‑5 for fear/avoidance; capability‑loss questionnaires developed in victim research).
+    - Confinement/false imprisonment.
+  - Guardrail: in SV/IPV categories, require Hauto to be at least 40% of H’s internal weight (so H cannot collapse to Hphys).
+
+- Risked harm (R): expand “credible‑risk environment”
+  - Items: weapons access/brandishing; strangulation (“non‑fatal strangulation” flag); stalking behaviours; threats/escalation markers; presence of children; public/private trapping; digital threats (image‑based abuse).
+  - Sources/validation: Danger Assessment (Campbell) and DA‑LE items for lethality risk; ODARA/B‑SAFER/SARA V3 for IPV recidivism risk; integrate “non‑fatal strangulation” as a high‑discrimination item.
+
+- Relational aggravation (T): add Structural Leverage Aggravators
+  - Offender’s exploitation of immigration status, employer power/wage theft/“sex for shifts,” landlord threats, outing threats for LGBTQ+ survivors. These are offender conduct items, not victim characteristics.
+
+- Intersectionality without blame: do not code victim demographics. Code offender’s exploitation of structural vulnerability. Apply Differential Item Functioning (DIF) tests to ensure items behave equivalently across groups; if not, adjust or drop.
+
+- Weight adjustments for SV/IPV categories
+  - Set αC ∈ [0.40, 0.55], αH ∈ [0.25, 0.40], αR ∈ [0.15, 0.25], αT ∈ [0.05, 0.15], αP ∈ [0.15, 0.30]. This ensures P and R have real bite alongside culpability.
+
+2) Worked comparisons
+
+Illustrative α: C 0.45; H 0.30 (with Hauto≥40%); R 0.15; T 0.05; P 0.20. Component scores 0–10; S rescaled 0–100.
+
+- Stranger rape with weapon, confinement, threats
+  - C: purposeful sexual violation; planning: 8.5 (±0.6)
+  - H: autonomy loss severe; confinement; trauma: Hphys moderate to high; Hauto high → H ≈ 8.8 (±0.6)
+  - R: weapon, threats, confinement: 7.5 (±0.6)
+  - T: none: 0
+  - P: short‑duration coercive control (event‑bound): 3.0 (±0.8)
+  - S ≈ 0.45*8.5 + 0.30*8.8 + 0.15*7.5 + 0.05*0 + 0.20*3.0 ≈ 73.3 (95% ~ [66, 80])
+
+- Acquaintance assault with grooming and repetition
+  - C: purposeful violation; grooming; repetition: 8.5 (±0.6)
+  - H: per‑incident injury lower; Hauto amplified by repetition/social entanglement: 8.2 (±0.6)
+  - R: moderate immediate bodily risk; high ongoing credible risk in network: 6.0 (±0.7)
+  - T: abuse of trust/vulnerability: 2.0 (±0.5)
+  - P: patterned domination over months: 7.5 (±0.7)
+  - S ≈ 0.45*8.5 + 0.30*8.2 + 0.15*6.0 + 0.05*2.0 + 0.20*7.5 ≈ 79.3 (95% ~ [72, 86])
+
+Interpretation: with robust P, the grooming/repetition case can surpass the stranger case because the moral reality is sustained domination and erosion of agency. Bedau’s worry about “fit” evaporates only if our metric can see that.
+
+- IPV: long‑term coercive control, low acute injury vs single severe assault
+  - Coercive control case: C 7.5; H 7.8 (Hauto heavy); R 7.0 (DA flags: strangulation, threats to children); T 1.5; P 8.5 → S ≈ 78–82.
+  - Single severe assault (hospitalisation) with no prior control: C 7.5; H 8.8 (Hphys heavy; Hauto moderate); R 5.5; T 0; P 2.0 → S ≈ 70–73.
+  The coercive control case rightly outranks the single assault because the social meaning and forward risk are worse.
+
+3) Carceral‑feminism risks: when custody, and what instead
+
+- Screening for custody reserved use
+  - Use validated tools (Danger Assessment, ODARA/B‑SAFER/SARA V3 for IPV; Static‑99R/STABLE‑2007 cautiously for sexual recidivism, recognising limitations).
+  - Custody is presumptively reserved for: (a) high imminent risk (DA high; strangulation; weapon access; escalating stalking); (b) serial predation with non‑responsiveness to controls; (c) violations of safety orders that create immediate danger.
+  - Not for “expressive” severity alone in acquaintance SA or IPV where risk is moderate and controls can make survivors safe.
+
+- Presumptive non‑carceral safety package (Band 5–6 equivalency)
+  - Mandatory firearm relinquishment with third‑party checks and audits; DV‑specific geofencing/GPS with exclusion zones; zero‑contact orders across all channels; tech access restrictions and forensic phone audits; workplace/school safety plans.
+  - Income redirection: 10% of wages for 5–10 years to survivor‑services funds; not victim‑paid unless requested.
+  - Long‑term, audited treatment (sexual behaviour/IPV) with external clinical oversight; substance‑use controls if relevant.
+  - Curfews, reporting, chaperone requirements where needed; travel and passport restrictions as risk dictates.
+  - Swift‑certain consequences for breaches; short, reset custody only where necessary to restore safety, not as default “just deserts.”
+
+4) Integrating reparative obligations (Qureshi) without re‑traumatising
+
+- Ethically permissible forms
+  - Direct encounters only with survivor’s sustained, informed consent and control; survivors may opt for indirect acknowledgment (video/written) vetted by facilitators; or surrogate/community panels.
+  - No compelled apologies delivered to survivors. No “therapeutic ambush.”
+  - Obligations index O calibrated by band: service in violence‑interruption/consent education; income‑based contributions to survivor funds; completion of change plans; tight liberty limits. Convert to custody equivalents transparently (e.g., Band 6: 1,500–2,000 O‑points over 4–6 years).
+
+- Equivalency principles
+  - Hours/payment/supervision reflect gendered harms without monetising trauma: the “currency” is community‑benefiting service, verified behaviour change, and long‑term constraints, not buying off pain.
+  - Victim preference shapes form, not magnitude; refusal to engage does not raise the burden.
+
+5) Structural critique and safeguards (with Nolan)
+
+- Data sources beyond police
+  - Feed S with hospital/clinic records; civil protection order findings; anonymised hotline/service‑provider data; DV fatality reviews; not just police narratives.
+  - For R items (weapons, stalking), corroborate beyond police reports when possible; discount uncorroborated claims that track policing intensity rather than risk.
+
+- DIF and impact audits
+  - Mandatory DIF tests for Hauto, R, P items; suspend items that behave differently across race/SES without principled reason.
+  - Quarterly disparate impact reports disaggregated by race/immigration; if persistent unexplained disparities, automatic weight review or structural adjustment (e.g., down‑weight place‑based “public‑space risk” absent independent evidence).
+
+- Upgrade currently underweighted harms
+  - Create specific items and high T aggravators for wage‑theft‑for‑sex, immigration‑based sexual coercion, landlord exploitation (“sex for rent”), and digital sexual coercion (non‑consensual image distribution, cyberstalking).
+  - Add an “Aggregate Harm” module within S for population‑level harms (e.g., systemic sexual exploitation in workplaces), so that these can enter Bands 6–7 when capability losses are large.
+
+6) Evidence and audit metrics
+
+- Evidence base
+  - Protective orders: where enforced, associated with significant reductions in re‑abuse and fear (e.g., Logan & Walker; Campbell’s DA‑informed interventions).
+  - GPS in DV: evaluations (e.g., Spain; selected US jurisdictions) show reduced violations/re‑assault when GPS is monitored with swift response.
+  - Advocacy + housing: strong evidence that survivor‑centred advocacy plus housing supports reduce revictimisation and improve autonomy indices.
+  - Sexual offender treatment: modest but real reductions when programmes are risk‑need‑responsivity aligned; indiscriminate programmes can harm.
+  - Victim‑offender dialogue in serious violence: improved victim well‑being when voluntary and well‑facilitated; evidence in sexual violence is thin—any use must be survivor‑led.
+
+- Guideline audit metrics (beyond recidivism)
+  - Autonomy restoration index (validated composite: mobility, work/school continuation, social connectedness).
+  - Fear reduction (IES‑R/PCL‑5 changes; self‑reported safety).
+  - Time‑to‑violation and seriousness of violations under EM/exclusion orders.
+  - Verified weapons relinquishment and non‑contact compliance.
+  - Survivor housing and income stability over 12–24 months.
+  - Disparate‑impact metrics for S bands and modalities; corrective action triggers.
+
+Bottom line: concrete revisions to S, PIS, and the grid
+
+- S
+  - Add latent P (Coercive Control) with αP guardrail 0.15–0.30.
+  - Within H, enforce Hauto ≥ 40% weight in SV/IPV; publish subcomponent scores.
+  - Expand R items to include strangulation, stalking, tech‑facilitated abuse; import Danger Assessment/ODARA/SARA items with open parameters.
+  - Add Structural Leverage Aggravators to T; define functionally and tie to offender conduct.
+  - Mandate DIF testing, non‑police data, and structural adjustment protocols.
+
+- PIS
+  - Add “survivor‑defined safety benefit” as an explicit term; privilege certainty/celerity of enforcement over severity in SV/IPV.
+  - Penalise legitimacy harms from over‑policing/surveillance by requiring community oversight for EM/geofencing and strict data minimisation.
+  - Treat custody as preventive only where validated imminent risk remains high despite controls.
+
+- Grid (Judge Villanueva)
+  - Create SV/IPV‑specific modality menus for Bands 5–6 that allow full non‑carceral substitution when O‑points and risk controls are satisfied; codify Band‑level O targets.
+  - Automatic firearm relinquishment and verification as a pre‑condition for any community‑based sentence.
+  - Upward departures across bands cannot be justified by public‑space/weapon factors alone; must show independent evidence of elevated risk not explained by policing saturation.
+  - Require a “structural leverage” finding (jury for ceiling effects; judge C&C within band) where immigration/work/housing leverage was exploited; treat as T.
+
+If we want a proportionality scheme that answers to gendered harms without sliding into carceral overreach, we must centre autonomy loss and coercive control as first‑order harms; constrain severity with dignity and distributive guardrails; and switch our prevention levers from piling on years to enforcing what actually keeps survivors safe: weapons removal, no‑contact, geofencing, income supports, and sustained, enforceable obligations of repair.
+
+---
+
+### Speaker: Host
+
+Dr. Sokolov, this is a natural moment to bring your Fingarette‑style internalism to the table. Bedau’s two objections bite hard: (i) rules—even laws—don’t conceptually require punishment (his chess analogy), and (ii) your view risks bypassing moral justification by treating retributive hard treatment as built into law’s authority. Please respond directly:
+
+1) Law vs. games. What is the precise normative difference that makes authoritative legal directives conceptually call for institutional censure plus hard treatment when breached, whereas chess rules do not? Please give a principled account (authority, standing commitments, assurance conditions), not just an intuition.
+
+2) Asymmetry without “moral alchemy.” On your view, why does breach by the guilty generate a reason for intentional hard treatment that does not apply to innocents—without appealing to desert as moral accounting or to preventive goods? Is it (a) constitutive of practical reason under authority, (b) a fairness commitment agents undertake as part of law‑membership, or (c) something else? Spell out the normative logic and its limits.
+
+3) Avoiding circularity. How does your internalism avoid the dilemma Bedau sketches—either reduce to consequentialism (appeal to goods like catharsis/denunciation) or collapse into circularity (“we punish because law says so”)? What anchors the requirement in reasons that agents share, and what would defeat it (e.g., gross illegitimacy of the order)?
+
+4) Non‑ideal conditions. Engage Dr. Baptiste’s critique: under background injustice, does law retain the authority to conceptually warrant hard treatment? Do you accept a distributive audit as a defeater for the presumption of penal authority? If so, what threshold failures of baseline provision or structural domination suspend the internalist warrant and force parsimony or substitution (reparative/administrative controls)?
+
+5) Interfaces with the emerging architecture. Be concrete about institutionalization:
+   - A1/A2: Do you treat hard treatment as analytically part of penal sanctions (A1) and guilt as gatekeeper (A2)? If yes, what counts as minimally sufficient “hard treatment”—can Qureshi‑style reparative packages satisfy A1 when they include non‑optional burdens and liberty limits?
+   - S‑bands and grid: Can Chen’s S serve as the non‑arbitrary way to instantiate your internalist warrant (i.e., it fixes the form/degree of censure and burdens)? Which items are conceptually essential to preserve the “breach‑answer” structure (e.g., culpability must have a minimum weight floor)?
+   - Departure rules: What internalist limits would you codify (no degrading penalties; no strict‑liability enhancements; reason‑giving as a condition of censure)?
+
+6) Contrast cases. Take our recurring pairings and show how your view guides outcomes:
+   - Provoked killing vs felony murder: If hard treatment is conceptually required for breach, what distinguishes the warranted burdens here? Do you reject strict felony‑murder liability and grade by risk emplaced and reasons‑responsiveness? What custodial parsimony follows from internalism rather than prevention or desert metrics?
+   - Sexual violence: Does patterned coercive control (O’Rourke’s P‑dimension) alter the conceptual warrant’s intensity even with low acute injury? How do you integrate non‑carceral controls while preserving the censure‑plus‑burden core?
+
+7) Capital punishment. From an internalist standpoint, is death ever conceptually eligible as the law’s hard treatment, or do dignity and reversibility constraints make it categorically or practically off‑limits? If your answer is “in principle but not in our systems,” specify the authority/epistemic thresholds that would have to be met.
+
+Please be precise about where your view converges with and diverges from: (a) Strauss’s moral accounting (desert), (b) Holm’s preventive legitimacy, and (c) Qureshi’s reparative substitution. Conclude with two concrete guideline provisions you would draft to embed internalism without sliding into Bedau’s ‘moral alchemy’—for example, a culpability weight floor and a dignity constraint that invalidates degrading sanctions across all bands.
+
+---
+
+### Speaker: Dr. Petra K. Sokolov
+
+Thank you, Chair. Let me take the objections straight on and then show how an internalist account can be institutionalized without “moral alchemy.”
+
+1) Law versus games: why breach conceptually calls for censure plus hard treatment in law, but not in chess
+
+- Authority and exclusionary reasons. Legal directives purport to give content‑independent, exclusionary reasons for action: they settle what we shall do together despite private calculations. That claim is not made by game rules except qua voluntary participation in a practice you can exit without wronging anyone. You cannot simply “walk off the field” of criminal law without imposing costs on others’ protected interests.
+
+- Standing commitments and assurance. A legal order is not just a set of primary rules; it includes standing commitments—by officials and citizens—to uphold them and to assure one another that breaches will be taken up. The point is not merely coordination, but securing equal status claims (rights) against defection. Secondary rules assign officials an institutional duty to censure breach; that duty is part of what it is to have law’s authority at all.
+
+- Directed duties, not pastime conventions. Breaching a criminal norm wrongs particular persons and the polity’s order of mutual accountability. Breaking a chess rule wrongs no one, because the “ought” of a game is internal to a voluntary activity whose only standing sanction is exclusion from the game.
+
+So: with law there is a built‑in answerability structure—an assurance practice backed by institutional duties to rebuke breach. That is why censure plus burdensome response is conceptually internal to legal authority, not to games.
+
+2) The guilty/innocent asymmetry without “moral alchemy”
+
+- Constitutive reasons of membership. In accepting a legal order as authoritative (as officials or as citizens), we undertake a fairness‑like commitment: if we defect, we will submit to institutional censure and to a non‑optional burden that marks that we, not our victims or fellow citizens, bear the cost of our defiance. That practical commitment is part of what it is to be a member of an authority that claims our obedience.
+
+- Second‑personal standing. Breach makes the offender the addressee of directed claims from the victim and polity: “Answer for this, as the responsible author.” Those claims ground a reason to impose intentional hard treatment on the guilty that does not exist toward innocents, who have not authored a defiance. This is not payback for its own sake; it is the constitutive form of answering under authority.
+
+- Limits. The burden must (a) be linked to the breach and its public meaning, (b) be the least burdensome sufficient to register censure and restore assurance, and (c) respect dignity. That excludes scapegoating and instrumentalizing innocents.
+
+3) Avoiding circularity and consequentialist collapse
+
+- Not “because the law says so.” The warrant flows from agents’ shared reason to participate in an authoritative scheme that secures equal standing through assurance. Censure‑plus‑burden is part of that scheme’s constitutive point: it is how breaches are taken up as breaches, independent of net preventive gain in a given case.
+
+- Not reducible to consequences. Even if a particular sanction does not deter, the polity owes the victim and itself a taking‑up of the wrong as wrong. That is a reason of right, not of outcome. At the same time, it is bounded by dignity and parsimony; where burdens can be minimized consistent with that taking‑up, they must be.
+
+- Defeaters. Gross illegitimacy defeats the claim: if the order systematically denies equal standing, or if basic conditions for fair compliance are missing, the internalist warrant for hard treatment is pro tanto suspended and may be displaced by non‑penal controls and repair.
+
+4) Non‑ideal conditions and distributive audits
+
+I accept Dr. Baptiste’s challenge in this form: authority requires a baseline of fair compliance conditions.
+
+- Distributive audit as defeater. Where the state has failed to secure minimally adequate capabilities for lawful compliance (housing, subsistence, basic health care), or where a rule functions to entrench domination, the claim to impose more than minimal censure‑burdens is weakened or suspended. In such cases the response should default to reparative/administrative controls and targeted safety measures, with custody reserved for imminent serious risk.
+
+- Parsimony by design. Even where the audit passes, internalism is parsimony‑forcing: because the point is to mark and mend the breach of equal standing, we have reason to choose the least burdensome measure that accomplishes that—often a structured reparative package rather than prolonged warehousing.
+
+5) Interfaces: making internalism work in the proposed architecture
+
+- A1/A2. Yes: A2 is the eligibility gate; A1 is analytic of penal sanctions—punishment is censure plus hard treatment. “Hard treatment” is minimally: a non‑optional, burdensome demand or liberty restriction imposed as censure. Robust reparative packages that impose significant, structured burdens and constraints qualify.
+
+- Using S‑bands to instantiate the warrant. Prof. Chen’s S can serve as the non‑arbitrary map from breach gravity to permissible burden, provided the model embeds internalist essentials:
+  - A culpability floor: mental state and reasons‑responsiveness must have a minimum weight; no strict liability.
+  - A separate risked‑harm dimension so we do not collapse everything into outcomes.
+  - A coercive‑control dimension (as Prof. O’Rourke urged) for patterned domination.
+  - Dignity constraints: certain penalties excluded categorically.
+
+- Departure rules under internalism. No degrading or sexualized penalties. No strict‑liability enhancements (e.g., felony murder) without proof and grading of risk embraced. Reason‑giving is intrinsic to censure: the sentence must say how the burden answers the breach and restores assurance. Lenity and uncertainty triggers protect against overreach.
+
+6) Contrast cases under internalism
+
+- Provoked killing vs felony murder.
+  - Provoked killing: Intentional killing, but partial excuse (impaired self‑control without loss of agency) reduces breach gravity. The warranted burden is high but not maximal; custody may be shorter, with strong reparative obligations and a formal censure process.
+  - Felony murder: Reject strict liability. Absent purpose to kill, censure tracks the degree of lethal risk knowingly embraced in predation. If extreme, the breach is grave; if risk was modest and the death freakish, the breach is materially lower than purposeful killing. Custodial parsimony follows: we do not add years to buy deterrence; we match the burden to the quality of the breach.
+
+- Sexual violence and coercive control.
+  - Patterned coercive control intensifies the breach even with low acute injury: it is sustained defiance of the victim’s equal standing. That warrants a heavier censure‑burden than a one‑off assault because the answer owed is deeper.
+  - Non‑carceral controls can satisfy the censure‑plus‑burden core when they are significant and public (weapons relinquishment, geofencing, long‑term no‑contact, income redirection, verified treatment, and formal censure hearings). Minimal custody may still be justified to secure compliance or mark gravity in some cases, but the architecture should lean toward burdens that directly rectify the relational wrong.
+
+7) Capital punishment
+
+- Conceptual eligibility. Internalism does not specify modes; it requires censure‑plus‑burden consistent with respecting the addressee as a responsible agent. Death sits uneasily with that: it forecloses continued address and rectification, is irreversible, and in practice degrades. I therefore take it to be, at minimum, practically off‑limits, and quite plausibly categorically incompatible with dignity under authority.
+
+- Thresholds no system meets. Even an “in‑principle” space would require near‑perfect legitimacy, vanishing error, non‑arbitrariness across persons and places, and procedures that preserve the person’s status through to the end. Our systems fall far short. Abolition follows.
+
+Where I converge and diverge
+
+- With Strauss. Convergence: breach generates answerability; censure‑plus‑burden is owed to agency equality. Divergence: I ground this in the constitutive reasons of authority and membership rather than in moral accounting by itself; I am more parsimony‑driven about form and magnitude.
+
+- With Holm. Convergence: legitimacy side‑constraints are non‑negotiable; structured transparency and due process matter. Divergence: even when prevention gains are marginal, there remains an internal reason to censure and burden the guilty; prevention then chooses within the band, not whether there should be any band.
+
+- With Qureshi. Convergence: reparative, dialogic obligations can be punishment when censure‑backed and burdensome. Divergence: some burdensome element is conceptually required for penal censure; pure repair that imposes no non‑optional burden is not punishment (though it may be valuable).
+
+Two concrete guideline provisions to embed internalism without “moral alchemy”
+
+- Culpability weight floor and anti‑strict‑liability rule. “In all seriousness computations (S), the culpability component must carry a weight of at least 0.40. No person may be sentenced above Band 4 for a death outcome absent proof, by clear and convincing evidence, of at least recklessness regarding lethal risk; felony‑murder liability shall be graded solely by the degree of risk knowingly embraced.”
+
+- Dignity and assurance clause with parsimony. “No sanction may be imposed that degrades or instrumentalizes the person (including sexualized, mutilative, or terrorizing penalties). Every sentencing statement shall explain how the sanction (a) communicates authoritative censure of the breach, (b) restores assurance to victims and the polity, and (c) is the least burdensome measure sufficient to accomplish (a) and (b). Where uncertainty spans bands, the court shall apply lenity and prefer reversible, reparative burdens.”
+
+That is how we keep punishment conceptually internal to law’s authority—anchored in reasons agents can share—while avoiding both the chess fallacy and the alchemy worry.
+
+---
+
+### Speaker: Host
+
+Prof. Strauss, Dr. Baptiste has pushed hard on a distributive-justice audit as a precondition for imposing hard treatment under non‑ideal conditions. From within your deontic “moral accounting” view, can you make that conditionality precise without collapsing into consequentialism? Please be concrete:
+
+1) A fair‑opportunity‑to‑comply test. What baseline capabilities or state duties must be in place (e.g., access to housing, subsistence, basic health care, legal work authorization) before the polity may legitimately impose custodial hard treatment as the mode of answering for breach? Specify:
+   - The threshold you would codify (a checklist or a composite index?),
+   - Who bears the burden of proof and at what standard,
+   - Whether failing the audit eliminates custody altogether or creates a strong presumption for reparative/non‑carceral burdens.
+
+2) Operationalizing within the guideline system. Would you endorse a structural‑deprivation adjustment (automatic one‑band downward shift absent proof of fair opportunity), as Baptiste proposed? How would that interact with A2 and with your moral equivalence metric? Please draft language you would be willing to see in the guidelines that preserves a culpability floor while recognizing distributive defeaters.
+
+3) Case applications.
+   - Survival theft vs. wage theft/tax fraud: Using your metric, and assuming an audit finds the survival‑theft defendant lacked baseline capabilities while the wage‑theft contractor and tax cheat did not, how do the bands and burdens differ? Are there deontic reasons to elevate aggregate economic harms (contractor/tax cheat) into higher bands to avoid the asymmetry Baptiste highlights?
+   - Drug markets: Street‑corner seller with a gun in a saturated, poor neighborhood vs. higher‑volume private‑network seller without a gun. How do you keep the moral‑equivalence assessment from laundering policing differentials into higher bands for the former? Should “public‑space risk” be down‑weighted unless independently corroborated, or does your deontic framework require an equalization move here?
+
+4) Felony murder and strict liability. You and Dr. Sokolov both resist strict liability. State explicitly how your moral‑equivalence metric would grade felony‑murder homicides purely by risk knowingly embraced and reasons‑responsiveness, and whether you would write a categorical rule barring elevation above a certain band absent proof of at least extreme recklessness regarding death.
+
+5) Capital punishment under non‑ideal conditions. Given your earlier principled allowance in narrow circumstances, does the distributive‑audit lens push you to practical abolition? If not full abolition, specify the additional distributive/epistemic thresholds that must be met beyond what you already listed (e.g., proof that capital charging and sentencing are free of race/county effects to a defined statistical tolerance).
+
+6) Integration with the emerging architecture. Identify two concrete amendments you would add to Judge Villanueva’s grid and Prof. Chen’s S so your deontic side‑constraints are explicit: for example, (a) a culpability weight floor/anti‑strict‑liability clause, and (b) a distributive‑defeater provision with reason‑giving requirements.
+
+Please aim to give draftable rule text where possible, and show how your deontic account can honor moral accounting while acknowledging Baptiste’s non‑ideal cautions about background injustice and policing asymmetries.
+
+---
+
+### Speaker: Prof. Miriam K. Strauss
+
+Thank you. I can accommodate Dr. Baptiste’s non-ideal cautions without abandoning the deontic core. The key is reciprocity: the polity’s standing to impose custodial hard treatment as the mode of moral accounting presupposes that it has discharged baseline duties that make lawful compliance a fair demand. When those duties are not met, accountability remains, but the permissible mode shifts toward reparative, non-carceral burdens, save where immediate safety requires incapacitation. That is not consequentialism; it is a condition on authority grounded in equal agency.
+
+1) A fair‑opportunity‑to‑comply test (deontic “reciprocity” audit)
+
+- Baseline duties (core capabilities the state must have made reasonably accessible during the relevant period, e.g., the 90 days prior to the offense):
+  1) Lawful subsistence: access either to minimally adequate housing or shelter, and a subsistence income floor via employment or income support.
+  2) Access to basic care: primary health, mental health, and, where clinically indicated, timely addiction treatment; language access for enrollment.
+  3) Legal enablement: government ID; no civil-disability barriers that make ordinary compliance impossible (e.g., license suspensions solely for debt where driving is necessary for lawful work); lawful work authorization where the state controls the barrier.
+  4) Normative notice: reasonable notice of the criminal norm (including translation where relevant).
+
+- Form: a checklist aggregated to a composite “Baseline Compliance Capability (BCC) Index.” The threshold is conjunctive: the state must show all core items were in place or reasonably offered.
+
+- Burden and standard: the state bears the burden to prove fair opportunity by clear and convincing evidence. The defendant may raise specific deficits; the state must then rebut.
+
+- Effect of failure: failure of the audit does not erase liability (A2 holds). It creates a strong presumption against custodial hard treatment. The court must impose censure-backed reparative and supervisory burdens instead, unless the state further proves imminent, serious risk that cannot be managed with non-carceral controls.
+
+Draftable rule text
+“Fair‑Opportunity‑to‑Comply. Prior to imposing any custodial sentence, the court shall find, by clear and convincing evidence, that during the 90 days preceding the offense the defendant had reasonable access to (a) minimally adequate housing or shelter and subsistence income; (b) basic health care, including clinically indicated substance-use treatment; (c) legal enablement for lawful work and movement; and (d) reasonable notice of the criminal prohibition. Absent such findings, the sentence shall consist of non-carceral, censure‑backed reparative and supervisory obligations, unless the court also finds, by clear and convincing evidence, that custodial incapacitation is necessary to avert imminent serious harm.”
+
+2) Operationalizing in the guideline system
+
+- Yes, I would endorse a structural‑deprivation adjustment with a culpability floor.
+
+Draftable guideline language
+“Structural‑Deprivation Adjustment. Where the Fair‑Opportunity‑to‑Comply finding is not made, the court shall apply an automatic one‑band downward adjustment from the S‑band indicated by the offense seriousness score. In offenses in Bands 6–7 involving purposeful or knowing violence against persons, the adjustment shall not reduce below Band 4. Any departure from the one‑band adjustment requires written reasons identifying imminent risk unmanageable by non-carceral means.”
+
+- Interaction with A2 and the moral‑equivalence metric: A2 remains the gate; the moral‑equivalence assessment (culpability + harm, with independent culpability weight) fixes the gravity and the desert ceiling. The distributive audit does not shrink culpability; it restricts the custodial modality used to discharge the deontic debt where reciprocity is missing.
+
+3) Case applications
+
+- Survival theft vs wage theft/tax fraud
+  - Survival theft: If the audit fails (no baseline subsistence/housing), impose censure‑backed, non‑carceral obligations: restitution where apt, income‑based payments to a victims’ fund, verified community service, and structured support engagement; no custody absent imminent risk. Moral accounting is satisfied by burdens that acknowledge and repair the wrong without compounding the state’s prior failure.
+  - Wage theft/tax fraud: Audit will typically pass. Our metric should explicitly elevate aggregate economic harms as breaches of reciprocity. I would add an Aggregate Economic Harm module to S so that systematic appropriation of labor or public funds can reach higher bands when harm is large and culpability is predatory or knowing. Deontically, these are classic cases of shifting one’s costs onto others while free‑riding on the legal order—squarely within what moral accounting condemns.
+
+Draft addition to S
+“Aggregate Harm Module (AEH). For wage theft, tax fraud, and analogous aggregate harms, S shall include an AEH score that reflects the scope, duration, and distributive impact of the appropriation. Where AEH exceeds published thresholds, offenses are eligible for Bands 5–6.”
+
+- Drug markets: street seller with gun vs private‑network seller
+  - Moral‑equivalence requires we grade by the risk knowingly imposed and reasons‑responsiveness, not by policing saturation. “Public-space” as such is a poor proxy for risk; I would require concrete, corroborated indicators (brandishing, discharge, presence of bystanders, crowd density) and independent corroboration beyond mere location. For the private seller, we must not ignore harms simply because they are diffuse; risked harm should reflect potency and foreseeable overdose risks when the actor knows of adulteration, though this must be tightly constrained to avoid re‑inflating the failed “war on drugs.”
+
+Draft equalization provision
+“Public‑Risk Corroboration. Elevation for ‘public-space risk’ shall require independent corroboration of concrete endangerment (e.g., weapon brandishing or discharge; presence of third parties in the line of fire). Mere location in a high‑policing area shall not, without more, justify a higher risk score. The Commission shall audit place‑based aggravators for disparate impact and adjust weights accordingly.”
+
+4) Felony murder and strict liability
+
+I would write felony‑murder grading to track only the risk knowingly embraced and the agent’s reasons‑responsiveness. No elevation to the intentional‑murder band absent proof of at least extreme recklessness as to death.
+
+Draft categorical rule
+“Felony‑Murder Grading. No sentence above Band 5 shall be imposed for a homicide predicated solely on felony‑murder unless the State proves beyond a reasonable doubt that the defendant acted with at least extreme recklessness regarding the risk of death—defined as conscious disregard of a very high probability of death under the circumstances. Strict‑liability elevation based solely on commission of the predicate felony is prohibited.”
+
+5) Capital punishment under non‑ideal conditions
+
+The reciprocity audit pushes my already narrow in‑principle allowance toward practical abolition. If a jurisdiction refuses abolition, additional thresholds beyond my earlier epistemic and dignity conditions are necessary and, I think, unattainable in practice:
+
+- Demonstrated non‑disparity: pre‑adoption and annual audits showing no statistically significant race‑of‑victim, race‑of‑defendant, or county effects in capital charging or sentencing after covariate adjustment (e.g., odds ratios within 1.05; p < .01).
+- Centralized charging with blind review; statewide uniform aggravator practice.
+- Heightened proof: beyond reasonable doubt on all aggravators; a residual‑doubt option.
+- Error rate: credible independent estimate of wrongful conviction risk below 1 in 10,000 with narrow confidence intervals across subgroups.
+
+On present evidence, these conditions cannot be met; a moratorium/abolition follows.
+
+6) Two explicit deontic amendments to embed in S and the grid
+
+(a) Culpability floor / anti‑strict‑liability clause
+“In all seriousness computations (S), culpability shall carry a weight of no less than 0.40. No person shall be sentenced above Band 4 on account of a death outcome absent proof of at least recklessness as to death. Strict‑liability enhancements are prohibited.”
+
+(b) Fair‑opportunity defeater with reason‑giving
+“Before imposing custodial punishment, the court shall make Fair‑Opportunity‑to‑Comply findings as set out above. If the findings are not made, the court shall (i) apply the Structural‑Deprivation Adjustment; (ii) impose censure‑backed reparative obligations and supervisory controls commensurate with S; and (iii) state on the record why any residual custody is necessary to avert imminent serious harm and why lesser burdens are insufficient.”
+
+A final word on laundering policing asymmetries. The moral‑equivalence metric must measure the wrong the agent chose—mental state, the concrete risk he set in motion, the relational wrong—not background surveillance. That requires corroboration rules, DIF audits, and, where necessary, structural adjustments of weights. It also requires, as Tamsin urged, that we give protected, non‑derivative weight to autonomy loss and coercive control in gendered violence; and as Nolan urged, that we bring aggregate harms into the same moral frame. None of that abandons moral accounting. It clarifies the conditions under which the polity may demand that account through custody, and when, because its reciprocal duties have not been met, it must answer the wrong through reparative and supervisory burdens instead.
+
+---
+
+### Speaker: Host
+
+Prof. Chen, several powerful proposals now sit on your plate. I’d like you to commit to concrete revisions to S and its governance, and to show numerically how they change case rankings, while addressing feasibility and de‑biasing.
+
+1) Coercive control as a latent dimension. Prof. O’Rourke proposes adding a patterned coercive control dimension P with αP guardrails (0.15–0.30) and validated instruments (CAS‑R, WEB, DA/SARA items, tech‑facilitated abuse). Please specify:
+   - The exact items you would include for P (duration/frequency, isolation/surveillance, financial control, stalking/monitoring, threats to children/pets/immigration, tech coercion), their scoring scales, and priors on item discrimination/difficulty.
+   - Revised α‑weight priors across C, H, R, T, P for SV/IPV categories, including the Hauto ≥ 40% internal weight rule O’Rourke wants, and a rationale for those guardrails.
+   - How you will ensure DIF testing and bias correction so P does not encode victim demographic differences; specify decision rules for suspending or re‑estimating items when DIF is detected.
+
+2) Aggregate harm module. Dr. Baptiste presses for an AEH module so wage theft, tax fraud, and environmental crimes can enter higher bands when population‑level capability losses are large. Please propose:
+   - A concrete AEH construct with indicators (dollar magnitude, duration, number of victims, severity of capability loss proxies such as missed rent/food/housing instability, estimated population exposure in environmental cases), measurement model (e.g., a separate latent dimension with αAEH guardrails 0.10–0.25 for relevant offense classes), and anchoring offenses.
+   - A worked numerical example showing how a contractor stealing $20,000 in wages across 10 workers compares on S+AEH to a non‑injury armed robbery, and where bands should land under your revised grid.
+
+3) Structural‑deprivation adjustment. Both Strauss and Baptiste would add a Fair‑Opportunity‑to‑Comply audit and a one‑band downward shift absent proof of baseline capabilities. From a metrics standpoint:
+   - Do you incorporate a Baseline Compliance Capability (BCC) index into S (risk: importing SES proxies) or keep it as a post‑S adjustment? Recommend the architecture and justify it.
+   - Define BCC items (access to housing/shelter; subsistence income; basic health/mental health/addiction care; legal ID and work authorization; notice), their verification sources, and a scoring/threshold rule. Address how to audit for disparate invocation without gaming.
+
+4) Public‑risk corroboration and non‑police data. Draft the “Public‑Risk Corroboration” measurement rule to avoid policing‑saturation bias: what qualifies as corroboration (video/forensic evidence; third‑party affidavits; hospital/clinic records), and how to discount location alone. Explain how non‑police feeds (medical, service‑provider, civil PO findings) will be integrated technically (data standards, privacy) into S scoring.
+
+5) Governance and feasibility. Courts can’t fit bespoke Bayesian models in real time. Give us:
+   - The precomputed scoring instrument (item list for common offense classes; look‑up tables for posterior means/intervals; a digital tool architecture), and a 5‑year re‑estimation cycle plan with open code.
+   - The exact uncertainty/lenity triggers you’d codify and how appellate courts should review S computations (legal vs factual standards).
+
+6) Updated worked examples (numbers welcome):
+   - (a) Stranger rape with weapon/confinement vs (b) acquaintance grooming/repetition: show S with P added (using your proposed α). When, numerically, does (b) exceed (a)?
+   - Wage theft/tax fraud vs non‑injury armed robbery: compute S+AEH and map to bands.
+
+7) PIS interface and legitimacy costs. Dr. Holm warns about racially‑coded “community sentiment” in legitimacy terms. State explicitly how PIS will estimate legitimacy costs using blinded vignette compliance/cooperation studies rather than raw attitudes, and how S’s ceiling blocks desert creep inside PIS.
+
+Bottom line: present a concrete revision memo—items, weights, examples, governance—that (i) adds P and AEH; (ii) places BCC as a post‑S adjustment; (iii) codifies corroboration and non‑police data; and (iv) is implementable on Judge Villanueva’s grid. Where does this leave Bedau’s arbitrariness objection—have we reduced it as far as is institutionally possible?
+
+---
+
+### Speaker: Prof. Wei-Lun Chen
+
+Thank you, Chair. Here is the revision memo you asked for—items, weights, examples, and governance—so the scheme is implementable on Judge Villanueva’s grid and responsive to Prof. O’Rourke’s and Dr. Baptiste’s critiques.
+
+1) Add a patterned coercive control latent dimension P (SV/IPV)
+
+Items and scoring (graded-response items; 0–3 scale unless noted)
+- Duration/frequency of control (CAS‑R; WEB):
+  - 0 none; 1 <3 months episodic; 2 3–12 months intermittent; 3 >12 months sustained/often.
+- Isolation/surveillance:
+  - 0 none; 1 social isolation without monitoring; 2 monitoring of movements/communications; 3 GPS/spyware/keystroke logging or coerced shared credentials.
+- Financial control:
+  - 0 none; 1 occasional coercion re: spending; 2 control of bank/credit; 3 employment sabotage or forced debt/identity theft.
+- Stalking/monitoring:
+  - 0 none; 1 unwanted following/contact; 2 repeated stalking with threats; 3 stalking with breach of protective orders or tactics that induced relocation.
+- Threats exploiting structural leverage (children/pets/immigration/employment):
+  - 0 none; 1 implicit threats; 2 explicit threats; 3 threats plus steps toward execution (e.g., contacting employer/ICE).
+- Tech‑facilitated coercion (image‑based abuse/cyberstalking):
+  - 0 none; 1 threats to share intimate images; 2 dissemination to limited audience; 3 broad dissemination or revenge‑porn site use.
+
+Bayesian IRT priors (per item)
+- Discrimination a ~ LogNormal(μ=0, σ=0.5) (median ≈ 1; heavy tails allow high‑info items like stalking‑with‑PO breach).
+- Thresholds b1,b2,b3 ~ N(0,1) with ordering constraint (b1<b2<b3); weakly informative to let the data place cutpoints.
+
+Revised α‑weight guardrails (SV/IPV offense classes)
+- αC ∈ [0.40, 0.55]; culpability floor.
+- αH ∈ [0.25, 0.40], with Hauto ≥ 40% of the internal H weight (so autonomy/capability loss cannot be swamped by Hphys).
+- αR ∈ [0.15, 0.25]; credible‑risk environment includes strangulation/stalking.
+- αT ∈ [0.05, 0.15]; relational/structural leverage aggravators.
+- αP ∈ [0.15, 0.30]; coercive control has protected bite.
+Rationale: this enshrines independent roles for reasons‑responsiveness (C), lived harms (Hauto), ex ante endangerment (R), abuse of position (T), and patterned domination (P). It directly fixes the Card/Sellin–Wolfgang problem: neither outcome harm nor “full measure” vagueness can dominate.
+
+DIF testing and bias correction
+- Multiple‑group MIRT with alignment: test invariance across victim race/ethnicity, immigration status, and neighborhood deprivation.
+- Decision rule: if an item shows DIF > 0.3 logits in thresholds or > 0.25 in discrimination across ≥2 protected subgroups, and the effect persists after adjusting for C/H/R profiles, suspend the item and substitute functionally equivalent indicators; re‑estimate the model. All DIF tests and item‑level decisions are published.
+- Code offender exploitation, not victim traits: e.g., “threatened to call ICE” counts; “victim is undocumented” does not.
+
+2) Add an Aggregate Economic/Environmental Harm module (AEH)
+
+Construct and indicators (latent AEH for white‑collar/environmental classes)
+- Dollar magnitude (log‑scaled): ln(total illicit gain or avoided cost).
+- Duration: months of conduct.
+- Number of direct victims: count or log(count).
+- Capability‑loss proxies:
+  - Wage theft: documented missed rent/utility shutoffs/food insecurity events attributable to non‑payment; days of work lost seeking redress.
+  - Tax fraud: public‑service shortfall proxies (e.g., school district deficits) or standardized fiscal harm weights by jurisdiction.
+  - Environmental: estimated population exposure; toxicity‑weighted exposure (e.g., µg/dL BLL>5 in N persons; EPA toxicity equivalence factors); duration of exceedances.
+- Intent: binary/ordinal indicator of willful vs negligent (feeds C, not AEH).
+
+Measurement model
+- Separate latent AEH (0–10), calibrated on vignettes and empirical case data; αAEH ∈ [0.10, 0.25] for relevant offense classes; AEH = 0 for street offenses. Anchors:
+  - Wage theft $5k/3 workers/1 month = AEH ≈ 3.
+  - Tax fraud $50k/1 year = AEH ≈ 4.
+  - Environmental release causing 100 residents BLL>5 for 6 months = AEH ≈ 8.
+
+Worked comparison
+- Contractor steals $20,000 wages across 10 workers over 6 months; 30 documented missed‑rent/utility events.
+  - C ≈ 7.5 (knowing appropriation; predatory reasons).
+  - H: Hauto (economic capability loss) ≈ 6.0; Hphys 0; H ≈ 6.0.
+  - R ≈ 1.0 (no acute bodily risk).
+  - T ≈ 2.0 (abuse of employer power).
+  - AEH ≈ 7.0–7.5 (ln(20k)≈10; 10 victims; 6 months; 30 missed rent).
+  - Using αC=0.45, αH=0.25, αR=0.10, αT=0.05, αAEH=0.15:
+    - S_base = 0.45*7.5 + 0.25*6.0 + 0.10*1.0 + 0.05*2.0 ≈ 5.38 (on 0–10).
+    - Add AEH: 0.15*7.25 ≈ 1.09.
+    - S_total ≈ 6.47 → 64.7 (Band 4–5 boundary; with uncertainty ~ [58, 71]).
+- Non‑injury armed robbery (brandishing a loaded firearm in public; no injury):
+  - C ≈ 7.5; H ≈ 6.5 (Hauto high; Hphys 0); R ≈ 7.0; T=0; AEH=0.
+  - With αC=0.45, αH=0.35, αR=0.20:
+    - S ≈ 0.45*7.5 + 0.35*6.5 + 0.20*7.0 ≈ 7.05 → 70.5 (Band 5).
+Interpretation: with AEH, serious wage theft no longer sits in Band 2–3 by default; it can enter Band 4–5, reflecting aggregate capability losses. Armed robbery remains Band 5 because acute autonomy invasion and lethal risk matter.
+
+3) Structural‑deprivation (Fair‑Opportunity‑to‑Comply) adjustment (post‑S)
+
+Architecture
+- Keep BCC post‑S. Do not bake SES into S. Use BCC only to adjust modality/band after seriousness is measured.
+
+BCC items (binary, conjunctive threshold; 90‑day window)
+- Housing/shelter access: documented access (shelter placement or voucher) offered and not unreasonably refused.
+- Subsistence income: eligibility assessed and reasonable access provided (employment services or income support).
+- Basic health/mental health/addiction care: appointment offered within clinically appropriate timelines; language access provided.
+- Legal enablement: possession of state ID or provision facilitated; no state‑imposed civil barriers (e.g., debt‑based license suspension) blocking lawful work; if immigration work authorization is state‑controlled, reasonable steps taken.
+- Normative notice: statute and warning notices reasonably accessible (language/reading level commensurate).
+
+Verification sources
+- Agency records (housing, social services, clinics); court records; sworn affidavits from service providers; defense can rebut with affidavits and contemporaneous proof.
+
+Threshold and adjustment
+- State bears clear‑and‑convincing burden; conjunctive standard (all cores must be met).
+- If BCC fails: automatic one‑band downward shift (floor at Band 4 for purposeful/knowing violence against persons), custody presumptively replaced by censure‑backed reparative/supervisory obligations unless imminent serious risk is proven (clear and convincing).
+Audit
+- Publish invocation rates by race/SES; random file audits; sanction agencies that game records.
+
+4) Public‑risk corroboration and non‑police data integration
+
+Measurement rule (codified)
+- “Public‑risk elevation (R) requires corroboration of concrete endangerment beyond location:
+  - Qualifying corroboration: video or body‑cam; forensic evidence (e.g., shell casings); hospital/clinic records (injuries consistent with brandishing/discharge); third‑party affidavits; civil protection orders; or contemporaneous 911 calls.
+  - Location alone (e.g., ‘school zone,’ ‘high‑crime area’) does not justify R > 4 absent corroboration.
+  - Where only location is present, apply a 50% discount to any place‑based R enhancer.”
+Non‑police data feeds
+- Technical: HL7 FHIR for medical encounters; standardized XML/JSON from courts for civil PO findings; secure APIs from certified victim‑service providers (aggregate/flag only; strict privacy governance).
+- Privacy: statutory data‑sharing gateways; de‑identification where possible; role‑based access in the digital tool; audit logs; independent privacy officer oversight.
+
+5) Governance and feasibility
+
+Precomputed instrument
+- Offense‑class worksheets: a fixed item set per class (e.g., homicide, robbery, SV/IPV, white‑collar/environmental), with clear coding guides.
+- Look‑up tables: posterior means and 95% credible intervals for typical item patterns; a simple additive scoring sheet maps to precomputed posterior summaries (no courtroom MCMC).
+- Digital tool: open‑source web application with on‑device caching; inputs entered; outputs include Ŝ, [S5,S95], item diagnostics, and warnings (e.g., DIF‑flagged items).
+Re‑estimation plan
+- Annual Bayesian updates; 5‑year full re‑estimation; open code (GitHub‑like repository); independent replication by an academic partner; public notice‑and‑comment.
+
+Uncertainty and lenity triggers (codify)
+- If [S5,S95] crosses a band threshold: default to the lower band; upward movement requires clear and convincing proof of the specific facts resolving uncertainty and written reasons; automatic review.
+- If [S5,S95] spans >2 bands: treat as underdeterminate; prefer reversible sanctions; permit remand for additional fact‑finding.
+Appellate review
+- Legal adherence to the tool and rules: de novo.
+- Item codings (fact findings): clear error.
+- Compliance with lenity/trigger rules: de novo.
+
+6) Updated worked examples with P and AEH
+
+SV pair (αC=0.45, αH=0.30 with Hauto≥40%, αR=0.15, αT=0.05, αP=0.20)
+
+- (a) Stranger rape (weapon, confinement, threats):
+  - C 8.5; H 8.8 (Hauto weight ≥40%); R 7.5; T 0; P 3.0.
+  - S_raw = 0.45*8.5 + 0.30*8.8 + 0.15*7.5 + 0.05*0 + 0.20*3.0
+           ≈ 3.825 + 2.640 + 1.125 + 0 + 0.600 = 8.190 → S ≈ 81.9 (95% ~ [75, 88]) → Band 6.
+
+- (b) Acquaintance grooming/repetition:
+  - C 8.5; H 8.2 (Hauto heavy via repetition); R 6.0; T 2.0; P 7.5.
+  - S_raw = 0.45*8.5 + 0.30*8.2 + 0.15*6.0 + 0.05*2.0 + 0.20*7.5
+           ≈ 3.825 + 2.460 + 0.900 + 0.100 + 1.500 = 8.785 → S ≈ 87.9 (95% ~ [81, 93]) → Band 6/7 boundary.
+Threshold insight: (b) exceeds (a) whenever P ≥ ~6 given these weights; the tool will show a “P‑driven elevation” flag to force reasons and prevent rote privileging of “stranger + weapon” cases.
+
+White‑collar vs street robbery (with AEH)
+
+- Wage theft case above: S_total ≈ 64.7 (Band 4–5 boundary).
+- Non‑injury armed robbery: S ≈ 70.5 (Band 5).
+Result: both are treated as serious; the contractor can now sit in high Band 4/low 5 rather than being relegated to lower bands.
+
+7) PIS interface and legitimacy costs
+
+Estimating legitimacy costs (without racialized sentiment)
+- Use blinded vignette experiments (mask race/class cues) to estimate how different sanction mixes affect willingness to report/cooperate and perceived fairness among diverse samples. Validate against behavioral proxies (reporting rates, clearance rates) where policies change (policy trials).
+- Feed those elasticities into PIS as “cooperation impacts,” not “public anger.” Publish models; forbid social‑media proxies or media salience.
+- S as ceiling/floor: PIS cannot recommend a sanction above the S‑band; within band, it optimizes expected prevention and cooperation given the published elasticities. No “desert creep” via “legitimacy”—if the only reason to go higher is expressive satisfaction, the ceiling stops it.
+
+Where this leaves Bedau’s arbitrariness objection
+
+We will never eliminate judgment. But we can bound it.
+
+- Content transparency and guardrails: separate latent pillars; protected weights (culpability floor; Hauto minimum in SV/IPV; αP and αAEH floors for their domains); dignity constraints external to S.
+- Quantified uncertainty and lenity: we always show [S5,S95]; we default down when uncertainty matters; we require reasons and automatic review to go up.
+- De‑biasing: corroboration rules; non‑police data; DIF tests with public suspension/adjustment; structural‑deprivation adjustment as a post‑S rule with a conjunctive, state‑burden standard; aggregate‑harm module to correct offense‑definition asymmetries.
+- Democratic revision: open code, five‑year re‑estimation with hearings; sunset unless reauthorized; disparate‑impact dashboards with binding corrective action.
+
+Two closing notes of challenge and convergence
+- To Prof. O’Rourke: P is now first‑class with protected weight and validated instruments; Hauto cannot be minimized. That is how we encode gendered harms without carceral overreach—by upgrading measurement, not reflexively adding years.
+- To Dr. Baptiste: we keep S free of SES, add AEH to capture diffuse harms, codify corroboration to blunt location bias, and put BCC post‑S with a strict state burden. If the polity hasn’t kept faith on baselines, custody recedes by rule. That’s an institutional answer, not a promise.
+
+Judge Villanueva can drop this into the grid tomorrow: the worksheet reflects these items; the digital tool returns Ŝ and bands with flags; BCC is a checkbox audit with a clear standard; and appellate courts know exactly what to review. Under non‑ideal conditions, that is as far as we can push arbitrariness down—and far enough, I believe, to meet Bedau’s challenge in practice.
+
+---
+
+### Speaker: Host
+
+Judge Villanueva, we now have a substantially revised architecture on the table: (i) Prof. Chen’s updated S with two major modules (P for patterned coercive control in SV/IPV with protected weights and validated instruments; AEH for aggregate economic/environmental harms), (ii) a Fair‑Opportunity‑to‑Comply (BCC) audit as a post‑S, one‑band downward adjustment absent clear‑and‑convincing proof of baseline capabilities, and (iii) a Public‑Risk Corroboration rule plus non‑police data feeds (medical, service‑provider, civil PO findings) to reduce policing‑saturation bias. Please take the implementer’s chair and get concrete about how a jurisdiction would roll this out.
+
+1) Operational plan. Draft a 12–18 month implementation roadmap that covers: (a) rulemaking to adopt the revised S (adding P and AEH guardrails), the BCC audit, and corroboration rules; (b) data‑sharing MOUs and technical standards (HL7 FHIR for clinical; court XML for POs; provider APIs), with privacy governance; (c) building the precomputed scoring tool (paper worksheets + web app) and bench/Bar training; and (d) a pilot + phased statewide rollout (which case types first, e.g., SV/IPV, robbery, wage theft/environmental), with an independent evaluation plan.
+
+2) Due process and triers. Specify which new facts must be submitted to a jury BRD versus found by a judge C&C: e.g., high P scores that would authorize Band 6/7 ceilings, AEH thresholds that unlock higher bands, and BCC audit failures that allow custody. Provide draft language to slot these into existing Apprendi/Blakely frameworks.
+
+3) Resource and workload. Identify the agencies that bear new burdens (sentencing commission, courts, AG/county counsel for MOUs, public defenders, prosecutors, IT, hospitals/service providers). Provide an order‑of‑magnitude budget and the staffing/training plan (bench cards, CLEs, facilitator accreditation) to make this administrable without bogging courts down.
+
+4) Guarding against gaming and inequity. Propose safeguards against (a) BCC bad‑faith documentation, (b) unequal access to non‑police evidence (e.g., hospitals refusing to share; service providers overloaded), and (c) differential surveillance that could inflate P/R for marginalized communities. Include random audits, sanctions, and fallback evidentiary pathways.
+
+5) Appellate and oversight. Update your earlier review standards to accommodate P and AEH and the BCC adjustment. Would you create a specialized appellate docket or a sentencing review panel for the first two years? What public dashboards (disparities; item‑level usage; BCC invocation/outcomes) would you require, and what triggers corrective action?
+
+6) Pilot sentencing template. Provide an updated, succinct sentencing statement template that adds: (i) P and AEH component scores and intervals where applicable; (ii) the BCC finding (met/not met) and sources; (iii) corroboration sources for public‑risk items; and (iv) the within‑band PIS rationale, including any reparative package selections and survivor‑safety controls. Keep it tight—what exactly must a line judge write to make reasons reviewable and non‑arbitrary?
+
+7) Failure modes and course‑correction. Identify two likely failure modes in the first year (e.g., inconsistent P coding; bottlenecks in data feeds; over‑ or under‑invocation of BCC) and your pre‑planned fixes (hotline guidance; emergency rule tweaks; supplemental training; temporary presumptions).
+
+8) Final stance on capital. With BCC and corroboration rules now in the mix, does your practical moratorium recommendation on capital charging change at all? If not, state whether you would issue a formal statewide directive to suspend capital filings pending demonstration of non‑disparity and vanishing error.
+
+Please be concrete—statutory/regulatory text snippets and checklists are welcome. The goal is to show how the refined scheme can leave Bedau’s arbitrariness worries as far behind as our institutions can manage, without blowing up administrability.
+
+---
+
+### Speaker: Hon. Elena P. Villanueva
+
+Thank you, Chair. I’ll put my guideline‑designer hat on and lay out a practical rollout plan, with the legal plumbing and operational guardrails you’ll need to keep discretion structured, reasons reviewable, and error costs contained.
+
+1) 12–18 month implementation roadmap
+
+Phase 0 (Month 0–2): Governance and scoping
+- Constitute an Implementation Steering Group (ISG): Sentencing Commission (lead), Courts Administrator, AG’s Office, State Health Information Exchange (HIE), hospital association, victim‑services coalition, public defender/DA reps, IT, privacy officer, and an academic evaluation partner.
+- Adopt project charter with timelines, deliverables, and a change‑management plan.
+
+Phase 1 (Month 2–6): Rulemaking and data infrastructure
+- Rules/adoption package (notice‑and‑comment; Commission vote; legislative ratification where required)
+  - Adopt revised S with guardrails:
+    - Insert the P (patterned coercive control) dimension and AEH (aggregate economic/environmental harm) module as published by the Commission, with α‑weight floors and DIF testing requirements.
+    - Codify the Hauto ≥ 40% rule in SV/IPV.
+  - Enact the Fair‑Opportunity‑to‑Comply (BCC) audit as a post‑S, one‑band downward adjustment absent clear‑and‑convincing proof by the state; include the imminent‑risk exception.
+  - Adopt Public‑Risk Corroboration rule (location alone insufficient; list of qualifying corroborants).
+  - Dignity constraints and culpability weight floor (no strict‑liability elevation; minimum αC).
+- Data‑sharing MOUs and standards
+  - HIE MOUs with hospital systems/clinics using HL7 FHIR resources (encounters, diagnoses) for limited, event‑tied flags; privacy impact assessment; role‑based access.
+  - Court XML schema for civil protection orders and findings; event subscription API.
+  - Provider APIs for service‑provider attestations (presence at sessions; coercive‑control indicators), with standardized JSON payloads; de‑identified where possible.
+  - AG/HIE to promulgate a Data Governance Policy: data minimization, logging, independent privacy officer oversight, breach response, and audit rights.
+
+Phase 2 (Month 4–10): Tools and training
+- Precomputed scoring tool
+  - Paper worksheets by offense class (Homicide, Robbery/Burglary, SV/IPV, Wage/Tax/Environmental) with item definitions and coding examples.
+  - Web app (open‑source) that implements the Commission’s precomputed posterior look‑ups; outputs Ŝ, 95% interval, band, and flags (e.g., “interval straddles threshold,” “P‑driven elevation,” “AEH anchor exceeded”).
+- Bench/Bar training
+  - Judicial bench cards and a 4‑hour CLE covering: S items and guardrails, BCC audit, corroboration standards, uncertainty/lenity triggers, and reason‑giving requirements.
+  - Prosecutor/defender CLEs; DA/PD “coding clinics” with hypotheticals; facilitator accreditation for restorative packages.
+
+Phase 3 (Month 10–15): Pilot and independent evaluation
+- Pilot sites and case types
+  - SV/IPV dockets (P active), robbery with weapon (corroboration rule), wage theft/environmental crimes (AEH).
+  - Three urban and three rural circuits; 6–9 months operational pilot.
+- Evaluation plan
+  - Academic partner conducts an interrupted time‑series evaluation: sentence dispersion; disparity measures; time‑to‑sentencing; victim safety metrics in SV/IPV; charging patterns in wage/environment.
+  - Concurrent usability study; issue rapid‑cycle improvement memos to the ISG.
+
+Phase 4 (Month 15–18): Statewide rollout
+- Adjust rules/tool from pilot lessons.
+- Staggered rollout to remaining circuits; maintain hotline support and monthly “brown‑bag” webinars for judges and counsel.
+- Launch public dashboards (see §5).
+
+2) Due process and triers (Apprendi/Blakely‑compliant)
+
+Facts requiring jury BRD (if they authorize a higher statutory maximum or S‑band ceiling):
+- P‑elevating facts that unlock Band 6/7 ceilings in SV/IPV (e.g., “sustained coercive control exceeding 12 months with stalking in violation of orders” where statute ties degree/maximum to P). Draft: “Any fact that authorizes sentencing in Band 6 or higher for SV/IPV offenses shall be alleged and proved to a jury beyond a reasonable doubt or admitted by the defendant.”
+- AEH thresholds that move white‑collar/environmental offenses into higher degree/band ceilings (e.g., “aggregate harm exceeds Level 3”).
+- Traditional Apprendi aggravators (weapon discharge, abuse of public office) when they expand the ceiling.
+
+Facts for judge by clear and convincing (within‑band findings and modality):
+- Specific item codings for C, H, R, T, and P that do not alter the statutory ceiling (e.g., Hauto magnitude; R corroboration met; grooming present).
+- AEH item details once the ceiling is unlocked by a jury finding.
+- BCC audit: whether fair opportunity existed (state bears C&C). Draft: “Fair‑Opportunity‑to‑Comply shall be determined by the court by clear and convincing evidence, with the State bearing the burden.”
+
+3) Resource and workload (order‑of‑magnitude)
+
+Agencies and roles
+- Sentencing Commission: rules, tool, training, dashboards, audits. Staff: +6 FTE (policy counsel, data scientist, trainer, QA, project manager, privacy analyst).
+- Courts (AOC): judicial education; IT integration. Staff: +4 FTE (trainer, analyst, helpdesk, integration dev).
+- AG/County Counsel: MOUs; privacy/GDPR‑like compliance. Staff: +3 FTE (counsel, data‑sharing attorney, privacy).
+- Public Defenders/Prosecutors: training and coding expertise. Stipends for 2 “sentencing specialists” per large office; shared resources for small counties.
+- HIE/Hospitals/Providers: interface development; data liaisons. Small grants for integration costs; +1 FTE liaison per hospital region; provider mini‑grants.
+
+Budget
+- Startup (18 months): $18–25M statewide (tooling $4–6M; training $3–4M; data integrations $6–8M; staffing $5–7M; evaluation $1–2M).
+- Ongoing (annual): $6–9M (maintenance, audits, dashboards, training refreshers, privacy compliance).
+
+4) Guarding against gaming and inequity
+
+- BCC bad‑faith documentation
+  - Random file audits (10% BCC cases per quarter); sanctions for agencies misrepresenting service availability; judicial contempt powers if parties mislead the court.
+  - Defense access to agency records under protective orders; ex parte motions allowed for safety‑sensitive data.
+- Unequal access to non‑police evidence
+  - Court‑ordered production protocols; standing subpoenas to hospitals with privacy protections; Commission grants to providers for documentation capacity; a centralized “Evidence Liaison” office to coordinate.
+  - Fallback affidavits: where records are unattainable, sworn third‑party affidavits (advocates/clinicians) acceptable; caution flags on S output with reason‑giving required.
+- Differential surveillance inflating P/R
+  - Enforce corroboration rule; discount location‑only R; require non‑police corroborants where feasible.
+  - Quarterly disparate‑impact audits of P and R items by race/zip; if disparities persist unexplained, Commission must suspend/adjust weights within 60 days.
+
+5) Appellate and oversight
+
+- Specialized docket
+  - Create a temporary Sentencing Review Panel (3‑judge rotating) for two years to hear S/P/AEH/BCC appeals on an expedited basis.
+- Standards of review (updated)
+  - Legal adherence to the tool, guardrails, corroboration rule, and BCC standard: de novo.
+  - Item codings (fact findings): clear error; jury fact sufficiency: substantial evidence.
+  - Lenity/uncertainty triggers and band selection: de novo for compliance; abuse of discretion within band.
+- Public dashboards (quarterly; county/statewide)
+  - Band distributions; within‑band modalities; reversal rates by ground; item‑level usage rates; DIF flags raised and resolved; BCC invocation and outcomes; demographic disparities (race, gender, indigence); SV/IPV safety metrics (time‑to‑violation; weapon relinquishment compliance).
+- Corrective triggers
+  - If any offense category shows an unexplained disparity (e.g., Black defendants 1.5× odds in higher bands controlling for S) for two quarters, automatic Commission review and interim variance authority.
+  - If reversal rates for a judge/county exceed 15% on S/BCC grounds, mandatory training and case sampling.
+
+6) Pilot sentencing statement template (max 2–3 pages)
+
+Caption; Offense; Case No.
+
+A. Seriousness computation (attach worksheet)
+- Components: C=__, H=__ (Hauto __%), R=__, T=__, P=__ (SV/IPV only), AEH=__ (if applicable).
+- Ŝ = __; 95% interval [__, __]; applicable band per Commission grid: Band __.
+- Thresholds: interval crosses [yes/no]. Lenity applied [yes/no]. If “no,” reasons and clear/convincing proof of upward facts: [cite evidence].
+
+B. Fair‑Opportunity‑to‑Comply (BCC)
+- Finding: Met / Not met (State’s burden C&C).
+- Sources: [agency records; provider affidavits; defense rebuttal].
+- If not met: applied one‑band downward adjustment [yes/no]; if “no,” imminent risk findings and reasons.
+
+C. Public‑risk corroboration (if R elevation)
+- Corroborants: [video/forensic/medical/affidavits/PO findings]; location‑only enhancement discounted [yes/no].
+
+D. Sanction and rationale
+- Selected sentence within Band __: [custody months; supervision years; modality package].
+- Prevention (PIS) analysis: incapacitation benefit; deterrence (weapon‑use enhancements/certainty investments); specific change plan; collateral costs.
+- Reparative package (if any): [obligation points; service hours; income‑based payments; treatment; acknowledgment form]; victim participation: direct/surrogate/declined; survivor‑safety controls: [no‑contact; geofencing; firearm relinquishment verified].
+- Equality/bias check: no forbidden proxies; structural mitigators considered [yes/no].
+
+E. Dignity and reasons
+- Statement that sanction communicates censure, restores assurance, and is least burdensome sufficient to do so.
+
+Judge’s signature/date.
+
+7) Likely failure modes and pre‑planned fixes
+
+- Inconsistent P coding across courts
+  - Fix: statewide calibration clinics with live vignettes; issue a P Coding Guide with exemplars; hotline for real‑time guidance; require a second‑reader review for P≥7 during the first year; quarterly inter‑rater reliability reports; if IRR < 0.75, emergency clarifications.
+- Data‑feed bottlenecks (hospital/provider records)
+  - Fix: temporary evidentiary presumption allowing sworn provider/advocate affidavits; Commission micro‑grants to providers; emergency rule extending timelines; phased enforcement of corroboration rule where feeds are not yet live, with mandatory reasons and caution flags.
+- Over‑ or under‑invocation of BCC
+  - Fix: automated BCC checklist in the tool; training with hypotheticals; quarterly audits; if under‑invoked in high‑deprivation circuits, require sua sponte inquiry; if over‑invoked without basis, sanctions and remedial training.
+
+8) Final stance on capital
+
+The BCC audit and corroboration rules only strengthen my prior view. I would recommend a formal statewide directive:
+- “Effective immediately, capital charging is suspended pending Commission verification that (a) race‑of‑victim/defendant and county effects are statistically non‑significant within a 1.05 odds ratio tolerance; (b) an independent innocence audit demonstrates a wrongful‑conviction risk < 1 in 10,000; and (c) uniform charging and review protocols are operational. Absent such demonstration within 24 months, capital punishment shall be abolished by statute.”
+
+Closing thought
+
+We are not going to eliminate judgment from sentencing. But with this architecture—protected culpability floors, validated P and AEH modules, corroboration requirements, a BCC audit with a state‑side burden, narrow bands, lenity triggers, written reasons, and appellate policing—we can do what Bedau demanded: push arbitrariness down and make discretion transparent, reviewable, and correctable. I’m comfortable standing up a pilot in 12 months and a statewide rollout by 18, if we resource it and commit to iterating in public.
+
+---
+
+### Speaker: Host
+
+We set out with Bedau’s challenge: retributivism’s justificatory core (R3) risks “moral alchemy,” and proportionality (R2) drifts into arbitrariness once talion is abandoned. The panel converged on a practical architecture that narrows arbitrariness and renders reasons reviewable, while candidly disagreeing on ultimate foundations.
+
+On justification, three nonconsequentialist routes were articulated: Strauss’s deontic moral accounting (answerability to past agency under dignity constraints), Sokolov’s internalist authority (censure-plus-burden as constitutive of law’s assurance practice), and Qureshi’s reparative accountability (desert as a claim to answer and repair). Holm defended a preventive regime bounded by legitimacy side-constraints that explain the guilty/innocent asymmetry without desert. Baptiste pressed the non-ideal condition: under background injustice, penal authority requires distributive preconditions and anti-domination guardrails.
+
+On proportionality, Chen’s multidimensional “S” gained broad uptake, upgraded to include: (1) a coercive-control dimension (P) with protected weight; (2) autonomy-loss weight floors in SV/IPV; (3) an Aggregate Economic/Environmental Harm module (AEH) to elevate diffuse harms; (4) quantified uncertainty with lenity triggers; (5) corroboration rules and non-police data to blunt policing saturation; and (6) open code, DIF testing, and democratic re-estimation. Villanueva translated this into a workable grid with narrow bands, written reasons, appellate oversight, and a Fair‑Opportunity‑to‑Comply audit that presumptively shifts away from custody where baseline state duties were unmet.
+
+Policy upshots: strict liability rejected; culpability floors and dignity constraints codified; reparative packages authorized as punitive when censure‑backed and burdensome; prevention (PIS) optimizes within bands. There was near-consensus on practical abolition of the death penalty under current error and disparity conditions.
+
+Enduring debates remain over the ultimate moral basis of punishment, the scope of custody for grave wrongs where robust repair is feasible, the stringency of distributive defeaters, and how to model legitimacy without importing racialized sentiment. But the session showed a credible path from theory to institutions: transparent metrics, calibrated burdens, distributive audits, and structured discretion with reasons and review.

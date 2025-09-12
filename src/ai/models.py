@@ -91,6 +91,9 @@ class ToolCall(BaseModel):
     type: Literal["function"]
     function: ToolFunction
 
+class ImgContent(BaseModel):
+    type: Literal["image_url"]
+    image_url: dict[Literal['url'], str]
 
 class ChatMessage(BaseModel):
     """
@@ -102,7 +105,7 @@ class ChatMessage(BaseModel):
     - tool_call_id/tool_output: populated for tool outputs (function_call_output)
     """
     role: Literal["system", "user", "assistant", "tool"]
-    content: Optional[str] = None
+    content: Optional[str | ImgContent] = None
     name: Optional[str] = None
     tool_call_id: Optional[str] = None
     tool_calls: Optional[List[ToolCall]] = None
