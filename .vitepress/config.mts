@@ -26,6 +26,7 @@ export default withMermaid({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Info', link: '/info' },
+      { text: 'Previous Discussions', link: '/previous' },
     ],
 
     search: {
