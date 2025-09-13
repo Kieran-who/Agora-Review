@@ -71,19 +71,27 @@ class GoogleLLMProvider:
                             role=message.role
                         ))
                 elif message.content:
-                    formatted_messages.append(Content(
-                            parts =[Part(
-                                text=message.content
-                            )],
-                            role=message.role
-                        ))                    
+                    # We only handle string content for user/system messages for now
+                    if isinstance(message.content, str):
+                        formatted_messages.append(Content(
+                                parts =[Part(
+                                    text=message.content
+                                )],
+                                role=message.role
+                            ))
+                    else:
+                        raise ValueError("Google assistant message content must be a string")
             elif (message.role == 'user' or message.role == 'system') and message.content:                
-                formatted_messages.append(Content(
-                            parts =[Part(
-                                text=message.content,
-                            )],
-                            role=message.role
-                        )) 
+                # We only handle string content for user/system messages for now
+                if isinstance(message.content, str):
+                    formatted_messages.append(Content(
+                                parts =[Part(
+                                    text=message.content,
+                                )],
+                                role=message.role
+                            ))
+                else:
+                    raise ValueError("Google assistant message content must be a string")
         return formatted_messages
 
     def _format_tools(self, tools: list[FunctionToolParam], use_grounding: bool = False) -> list[Tool]:

@@ -43,13 +43,7 @@ class LLMProvider:
         :return: The completion response.
         """
         
-        return self._LLM_provider_google.generate(request)
-    
-    def return_underlying_openAI_client(self, provider: str) -> AzureLLMProvider:        
-        return self._LLM_provider_openAI
-
-    def return_underlying_google_client(self, provider: str) -> GoogleLLMProvider:
-        return self._LLM_provider_google
+        return self._LLM_provider_google.generate(request)    
 
 def get_llm_provider() -> LLMProvider:
     global _LLMProvider
@@ -57,7 +51,7 @@ def get_llm_provider() -> LLMProvider:
         _LLMProvider = LLMProvider()
     return _LLMProvider
 
-# Whipe the provider for testing
+# Wipe the provider for testing
 def reset_llm_provider() -> None:
     global _LLMProvider
     _LLMProvider = None

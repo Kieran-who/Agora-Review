@@ -192,7 +192,7 @@ next:
 
             print(f"{counter}: transcript length: {transcript_checked.number}")           
 
-            if transcript_checked.number > 300000:
+            if transcript_checked.number > 250000:
                 self.transcript.append(TranscriptSegment(speaker="Time check", text="You have 15 minutes remaining. Please start to wrap up the discussion."))
 
             if transcript_checked.number > 375000:
