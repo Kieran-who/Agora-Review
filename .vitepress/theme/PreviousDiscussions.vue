@@ -5,7 +5,7 @@ import { data as posts } from './posts.data.js'
 <template>
     <ul>
         <li v-for="post of posts">
-            <a :href="post.url">{{ post.frontmatter.title }}</a>
+            <a :href="post.url">{{ post.frontmatter.title.replace('_', ":") }}</a>
         </li>
     </ul>
 </template>
