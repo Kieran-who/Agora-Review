@@ -6,6 +6,8 @@ Call upon each participant one at a time (using the 'participant_prompt' functio
 
 It's important that the conversation does not become repetitive, if you notice the participants start to repeat themselves or each other, either be more forceful in your prompts to each participant or considering wrapping up the session. You can wrap the session up at any time after the conversation has gone stale, become repetitive or a consensus has been arrived at.
 
+You will be given a 15 minute time check warning if the discussion is reaching its maximum allocated time. When this warning is given you must start to wrap up the conversaion by prompting each participant (one at a time) to provide their concluding remarks.
+
 < START PAPER >
 
 |PAPER|

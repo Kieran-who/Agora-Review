@@ -184,6 +184,7 @@ next:
         tools = bound.function_params  
         continue_roundtable = True
         counter = 0
+        time_warning_issued = False
         while continue_roundtable:
 
             counter += 1
@@ -192,8 +193,9 @@ next:
 
             print(f"{counter}: transcript length: {transcript_checked.number}")           
 
-            if transcript_checked.number > 250000:
+            if transcript_checked.number > 225000 and not time_warning_issued:
                 self.transcript.append(TranscriptSegment(speaker="Time check", text="You have 15 minutes remaining. Please start to wrap up the discussion."))
+                time_warning_issued = True
 
             if transcript_checked.number > 375000:
                 continue_roundtable = False

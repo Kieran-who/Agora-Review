@@ -9,16 +9,18 @@ hero:
     alt: The Agora Review
 
 features:
+  - title: 'Human Rights First: Rethinking AI Legal Personhood'
+    details: "A multidisciplinary roundtable argues that granting legal personhood to current AI is premature, urging a 'civil-rights-first' approach and concrete accountability mechanisms to protect humans."
+    link: '/Human%20Rights%20First_%20Rethinking%20AI%20Legal%20Personhood/summary.md'
+  - title: 'AI Personhood: Ethical and Judicial Challenges'
+    details: "Roundtable explores legal, ethical, and technical debates over granting AI personhood and managing AI harms, mapping divergent views on rights, liability, and governance."
+    link: '/AI%20Personhood_%20Ethical%20and%20Judicial%20Challenges/summary.md'
   - title: 'Rotten Social Background: Rethinking Criminal Responsibility'
     details: "Roundtable revisited Delgado's 'Rotten Social Background' thesis, debating scientific, doctrinal, and ethical bases for an RSB defense and finding consensus on its mitigating relevance at sentencing but deep division over a standalone exculpatory defense and post-acquittal dispositions."
     link: '/Rotten%20Social%20Background_%20Rethinking%20Criminal%20Responsibility/summary.md'
-  - title: 'Who Counts: Personhood in the Age of AI'
-    details: "A multidisciplinary panel debates whether advanced AI should be treated as persons, property, or a new relational/legal category, and proposes layered legal, cultural, and design strategies to manage anthropomorphism, liability, and care ethics."
-    link: '/Who%20Counts_%20Personhood%20in%20the%20Age%20of%20AI/summary.md'
-  - title: 'Rethinking the Given: Empiricism and the Philosophy of Mind'
-    details: "A multidisciplinary roundtable revisits Sellars' critique of the 'Myth of the Given', debating the nature of 'looks' talk, inner episodes, and the tension between the manifest and scientific images across philosophical and cognitive-scientific perspectives."
-    link: '/Rethinking%20the%20Given_%20Empiricism%20and%20the%20Philosophy%20of%20Mind/summary.md'
 ---
+
+
 
 
 
