@@ -39,7 +39,7 @@ def update_index_features(full_index_md: str, new_title: str, new_details: str, 
     # Reconstrcut the full index.md
     new_features_md = "features:\n"
     for feature in new_features:
-        new_features_md += f"  - title: {feature['title']}\n    details: {feature['details']}\n    link: {feature['link']}\n"
+        new_features_md += f"  - title: {feature['title'].replace('_', ':')}\n    details: {feature['details']}\n    link: {feature['link']}\n"
     new_features_md += "---\n"
 
     return full_index_md.split('features:')[0] + new_features_md + full_index_md.split('---')[-1]

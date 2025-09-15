@@ -167,7 +167,7 @@ next: false
                 file.write(new_index_content)
             # Return formatted front matter
             return f"""---
-title: "{self.topic}"
+title: "{self.topic.replace('_', ':')}"
 date: "{datetime.now().strftime('%Y-%m-%d')}"
 outline: "{fn_args.get("outline")}"
 tags: {", ".join(fn_args.get("content_tags", []))}

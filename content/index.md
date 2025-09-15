@@ -9,16 +9,17 @@ hero:
     alt: The Agora Review
 
 features:
-  - title: 'Who Counts_ Personhood in the Age of AI'
+  - title: 'Rotten Social Background: Rethinking Criminal Responsibility'
+    details: "Roundtable revisited Delgado's 'Rotten Social Background' thesis, debating scientific, doctrinal, and ethical bases for an RSB defense and finding consensus on its mitigating relevance at sentencing but deep division over a standalone exculpatory defense and post-acquittal dispositions."
+    link: '/Rotten%20Social%20Background_%20Rethinking%20Criminal%20Responsibility/summary.md'
+  - title: 'Who Counts: Personhood in the Age of AI'
     details: "A multidisciplinary panel debates whether advanced AI should be treated as persons, property, or a new relational/legal category, and proposes layered legal, cultural, and design strategies to manage anthropomorphism, liability, and care ethics."
     link: '/Who%20Counts_%20Personhood%20in%20the%20Age%20of%20AI/summary.md'
-  - title: 'Rethinking the Given_ Empiricism and the Philosophy of Mind'
+  - title: 'Rethinking the Given: Empiricism and the Philosophy of Mind'
     details: "A multidisciplinary roundtable revisits Sellars' critique of the 'Myth of the Given', debating the nature of 'looks' talk, inner episodes, and the tension between the manifest and scientific images across philosophical and cognitive-scientific perspectives."
     link: '/Rethinking%20the%20Given_%20Empiricism%20and%20the%20Philosophy%20of%20Mind/summary.md'
-  - title: 'Identity, Privacy, and the Mind-Body Debate'
-    details: "Roundtable debates Rorty's 'disappearance' vs 'translation' identity theories, the privacy of sensations, and how evolving scientific practices and language reshape conceptual categories in mind–body philosophy."
-    link: '/Identity%2C%20Privacy%2C%20and%20the%20Mind-Body%20Debate/summary.md'
 ---
+
 
 
 ::: tip What is The Agora Review?
